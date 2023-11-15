@@ -34,17 +34,17 @@ if st.button("Show Recommend"):
     movie_name, movie_poster=give_sim(select_value)
     col1,col2,col3,col4,col5=st.columns(5)
     with col1:
-        st.image(posters[0])
-        st.write(names[0])
+        st.image(movie_poster[0])
+        st.write(movie_name[0])
     with col2:
-        st.image(posters[1])
-        st.write(names[1])
+        st.image(movie_poster[1])
+        st.write(movie_name[1])
     with col3:
-        st.image(posters[2])
-        st.write(names[2])
+        st.image(movie_poster[2])
+        st.write(movie_name[2])
     with col4:
-        st.image(posters[3])
-        st.write(names[3])
+        st.image(movie_poster[3])
+        st.write(movie_name[3])
     with col5:
-        st.image(posters[4])
-        st.write(names[4])
+        st.image(movie_poster[4])
+        st.write(movie_name[4])
